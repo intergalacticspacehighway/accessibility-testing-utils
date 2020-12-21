@@ -1,7 +1,9 @@
 {
   "name": "accessibility-testing-utils",
-  "version": "1.0.0",
+  "description": "Some utils to ease accessbility testing",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "nishan",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "https://github.com/intergalacticspacehighway/accessibility-testing-utils",
 }
