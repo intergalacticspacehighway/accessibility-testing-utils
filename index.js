@@ -13,6 +13,8 @@ export const blurElementStyle = IS_DEV
   : {};
 
   export const testImageAltAttribute = () => {
+    if (!IS_DEV) return
+    
     window.addEventListener("load", () => {
       const images = document.querySelectorAll("img");
       images.forEach(node => {
