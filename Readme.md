@@ -34,6 +34,7 @@ import {blurElementStyle} from "accessibility-testing-utils"
 - This will make `src` of all the images an invalid string.
 - Even though tools like Lighthouse makes sure image has a valid alt attribute, but it's better to test it manually.
 - [Watch this](https://www.youtube.com/watch?v=XCa6U1BllCY) to know why this is important.
+- PS - Hello world image is a bad alt text. (Image text is redundant here)
 
 ### Usage
 
