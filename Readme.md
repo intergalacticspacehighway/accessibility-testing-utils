@@ -2,9 +2,9 @@
 
 ### Installation
 ```
-yarn add accessibility-testing-utils
+yarn add accessibility-testing-utils -D
 OR
-npm install accessibility-testing-utils
+npm install accessibility-testing-utils  --save-dev
 ```
 
 ### 1. Blur the site to test tab navigation and accessibility role/label/state.
