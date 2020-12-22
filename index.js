@@ -11,3 +11,12 @@ export const blurElementStyle = IS_DEV
       'cursor': 'default',
     }
   : {};
+
+  export const testImageAltAttribute = () => {
+    window.addEventListener("load", () => {
+      const images = document.querySelectorAll("img");
+      images.forEach(node => {
+        node.src = "/invalid-image-404"
+      })
+    })
+  }
