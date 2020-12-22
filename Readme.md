@@ -22,7 +22,7 @@ npm install accessibility-testing-utils
 ```
 import {blurElementStyle} from "accessibility-testing-utils"
 
-<any-dom-element style={blurElementStyle}>{children}</any-dom-element>
+<div style={blurElementStyle}>{children}</div>
 ```
 
 
